@@ -37,3 +37,31 @@ This project uses the **IBM Telco Customer Churn** dataset, which contains infor
 * **Primary Key:** `customerID`
 * **Target Variable:** `Churn`
 
+## Business Questions
+
+The following business questions were explored during the analysis:
+
+### Data Exploration
+1. How many customers are included in the dataset?
+2. What is the overall customer churn rate?
+3. What is the average monthly charge for customers?
+
+### Customer Demographics
+4. Does gender influence customer churn?
+5. Are senior citizens more likely to churn?
+6. Does having a partner affect churn?
+7. Does having dependents affect churn?
+
+### Customer Services
+8. Which contract type has the highest churn rate?
+9. Which internet service has the highest churn rate?
+10. Does having Tech Support reduce churn?
+11. Does having Online Security reduce churn?
+12. Which payment method is associated with the highest churn?
+
+### Revenue & Customer Lifetime
+13. Do churned customers pay higher monthly charges?
+14. Which customer tenure group has the highest churn rate?
+
+### Predictive Analysis
+15. Which customers can be classified as High, Medium, or Low churn risk using business rules?
