@@ -65,3 +65,12 @@ The following business questions were explored during the analysis:
 
 ### Predictive Analysis
 15. Which customers can be classified as High, Medium, or Low churn risk using business rules?
+
+## Methodology
+
+1. Imported the IBM Telco Customer Churn dataset into SQLite.
+2. Performed exploratory data analysis to understand the dataset.
+3. Wrote SQL queries to answer business questions.
+4. Identified churn patterns across customer demographics, services, contracts, payment methods, and tenure.
+5. Built an interactive Power BI dashboard to visualize the findings.
+6. Proposed business recommendations based on the analysis.
