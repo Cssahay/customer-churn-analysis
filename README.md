@@ -76,3 +76,39 @@ The analysis was completed using the following workflow:
 4. Calculated churn rates and compared customer segments using aggregate functions and conditional logic.
 5. Built an interactive Power BI dashboard to visualize key metrics and business insights.
 6. Developed business recommendations based on the analysis to help improve customer retention.
+
+
+## Key Findings
+
+Based on the SQL analysis, the following insights were identified:
+
+### 1. Overall Customer Churn
+- The overall customer churn rate was **26.54%**, meaning approximately **1 in 4 customers** left the company.
+
+### 2. Contract Type
+- Customers on **month-to-month contracts** had the highest churn rate (**42.71%**).
+- Customers with **one-year contracts** had a significantly lower churn rate (**11.27%**).
+- Customers with **two-year contracts** had the lowest churn rate (**2.83%**), suggesting that longer-term contracts greatly improve customer retention.
+
+### 3. Internet Service
+- Customers using **Fiber Optic** internet experienced the highest churn rate (**41.89%**).
+- Customers using **DSL** had a considerably lower churn rate (**18.96%**).
+- Customers without internet service had the lowest churn rate (**7.40%**).
+
+### 4. Payment Method
+- Customers paying through **Electronic Check** had the highest churn rate (**45.29%**).
+- Customers using **automatic payment methods** (Bank Transfer or Credit Card) had much lower churn rates (**16.71%** and **15.24%**, respectively).
+
+### 5. Customer Tenure
+- Customers with **less than 12 months** of tenure showed the highest churn rate (**48.28%**).
+- Churn steadily decreased as customer tenure increased.
+- Customers with **48 months or more** had a churn rate of only **9.64%**, indicating that long-term customers are much more likely to remain with the company.
+
+### 6. Tech Support
+- Customers **without Tech Support** had a churn rate of **41.64%**.
+- Customers **with Tech Support** had a much lower churn rate (**15.17%**), indicating that support services are associated with improved customer retention.
+
+### 7. Online Security
+- Customers **without Online Security** experienced a churn rate of **41.77%**.
+- Customers subscribed to **Online Security** had a significantly lower churn rate (**14.61%**), suggesting that value-added security services contribute to customer loyalty.
+
