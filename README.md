@@ -68,9 +68,11 @@ The following business questions were explored during the analysis:
 
 ## Methodology
 
-1. Imported the IBM Telco Customer Churn dataset into SQLite.
-2. Performed exploratory data analysis to understand the dataset.
-3. Wrote SQL queries to answer business questions.
-4. Identified churn patterns across customer demographics, services, contracts, payment methods, and tenure.
-5. Built an interactive Power BI dashboard to visualize the findings.
-6. Proposed business recommendations based on the analysis.
+The analysis was completed using the following workflow:
+
+1. Imported the IBM Telco Customer Churn dataset into a SQLite database using DB Browser for SQLite.
+2. Performed data exploration to understand the dataset structure and verify data quality.
+3. Used SQL to analyze customer churn across different demographic, service, billing, and contract-related attributes.
+4. Calculated churn rates and compared customer segments using aggregate functions and conditional logic.
+5. Built an interactive Power BI dashboard to visualize key metrics and business insights.
+6. Developed business recommendations based on the analysis to help improve customer retention.
