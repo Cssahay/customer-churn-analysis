@@ -64,6 +64,10 @@ The analysis focused on the following business questions:
 9. Which customer tenure group has the highest churn rate?
 10. How does churn change as customer tenure increases?
 
+### Churn Risk Segmentation
+
+11. Which customers can be classified as High, Medium, or Low churn risk using predefined business rules?
+
 ## Methodology
 
 The analysis followed the workflow below:
@@ -149,6 +153,16 @@ This shows a strong association between Tech Support subscription and lower chur
 Customers without Online Security had a churn rate of **41.77%**, compared with **14.61%** among customers who subscribed to Online Security.
 
 Customers with Online Security therefore showed substantially lower churn rates.
+
+### 8. Rule-Based Churn Risk Classification
+
+A rule-based customer risk classification was created using contract type, internet service, and customer tenure.
+
+- **High Risk:** Month-to-month contract + Fiber optic internet + less than 12 months tenure.
+- **Medium Risk:** Month-to-month contract + less than 24 months tenure.
+- **Low Risk:** Customers who do not meet the above conditions.
+
+This classification is a business-rule segmentation rather than a machine-learning prediction model and can be used to prioritize customers for further retention analysis.
 
 ## Power BI Dashboard
 
